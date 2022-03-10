@@ -9,6 +9,11 @@ import "@typechain/hardhat";
 import "hardhat-gas-reporter";
 import "solidity-coverage";
 
+import "./tasks/donate";
+import "./tasks/get_donaters_list";
+import "./tasks/get_donations_value";
+import "./tasks/withdrawl";
+
 dotenv.config();
 
 const config: HardhatUserConfig = {
